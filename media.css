@@ -1,0 +1,160 @@
+@media (max-width: 877px) {
+  .right-nav {
+    position: absolute;
+    height: 100%;
+    background-color: white;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-right: 13px;
+    overflow: none;
+    width: 40%;
+    color: grey;
+    gap: 2rem;
+    transition: 0.3s ease-in-out !important;
+    display: none;
+  }
+
+  .icon-menu {
+    display: inline-block;
+  }
+  .left-nav {
+    width: 100%;
+  }
+
+  .drop-down {
+    position: relative;
+    margin-left: 0;
+    box-shadow: none;
+    margin-top: 5px;
+  }
+  .second-drop-down {
+    position: relative;
+    margin-top: 5px;
+    box-shadow: none;
+  }
+  .nav-list {
+    display: block;
+    margin-left: 18px;
+    margin-top: 1rem;
+  }
+  .close-menu {
+    position: absolute;
+    right: 20px;
+    margin-top: 16px;
+    display: block;
+  }
+  .body-background {
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    transition: 0.3s ease-in;
+  }
+  .show-nav {
+    width: 0px;
+    display: block;
+  }
+  .show-nav {
+    width: 40%;
+    display: block;
+  }
+  .nav-parent-list {
+    margin-top: 2.5rem;
+  }
+  .button--container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .button--container button {
+    color: grey;
+  }
+  .signup-btn {
+    width: 200px;
+    border: 2px solid grey;
+  }
+}
+
+@media (max-width: 1190px) {
+  .hereo-container {
+    width: 100%;
+  }
+  #hereo {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 998px) {
+  .hereo-container {
+    flex-direction: column-reverse;
+  }
+  .hereo-container {
+    width: 100%;
+  }
+  #hereo {
+    padding: 5px 0;
+    align-items: last baseline;
+  }
+  .right-hereo {
+    width: 100%;
+    display: block;
+    height: 300px;
+  }
+  .img-hereo {
+    display: block;
+    height: 100%;
+  }
+  .img-hereo img {
+    width: 100%;
+    height: 100%;
+  }
+  .br {
+    display: inline-block;
+  }
+  .bold-text p {
+    text-wrap: nowrap;
+  }
+  .left-hereo {
+    align-items: center;
+    padding: 5px 15px;
+  }
+}
+
+@media (max-width: 636px) {
+  .bold-text p {
+    font-size: 3rem;
+  }
+  .text {
+    margin-top: 0;
+  }
+  .right-nav {
+    width: 70%;
+  }
+  .close-menu {
+    margin-right: 20px;
+  }
+  .signup-btn {
+    width: 80%;
+  }
+  .button--container {
+    margin-top: 40px;
+  }
+  .right-hereo {
+    width: 100%;
+    display: block;
+    height: calc(100vh / 2);
+  }
+}
+@media (max-width: 487px) {
+  .bold-text p {
+    font-size: 2rem;
+  }
+  .text {
+    margin-top: 0;
+  }
+  footer {
+    gap: 10px;
+  }
+}
